@@ -172,6 +172,7 @@ img {
 }
 #dm_vcard_box #main_info_area #info_area_contents .info_box {
   display: none;
+  width: 100%;
 }
 #dm_vcard_box #main_info_area #info_area_contents .active {
   display: block;
