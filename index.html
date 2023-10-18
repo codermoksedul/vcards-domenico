@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Franky</title>
+    <!-- stylesheet link here -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <!-- digital business card -->
+    <div id="dm_main_area">
+      <!--  card box start -->
+      <div id="dm_vcard_box">
+        <!-- header area start -->
+        <header id="dm_header_area">
+          <!-- header logo start -->
+          <div class="header_logo">
+            <img src="img/header-logo.png" alt="logo" />
+          </div>
+          <!-- header logo send -->
+          <!-- header information start -->
+          <div class="header_info">
+            <h1 class="name_title">Domenico La Pietra</h1>
+            <a class="contact_btn" href="contact/contact.vcf">
+              <i class="fas fa-plus"></i> Add to Contacts</a
+            >
+          </div>
+          <!-- header information end -->
+        </header>
+        <!-- header area end -->
+        <!-- middle section area start -->
+        <section id="main_info_area">
+          <!-- navigator area start -->
+          <div class="navigator_area">
+            <ul>
+              <li>
+                <button class="active" id="btn_contact">Contact</button>
+              </li>
+              <li><button id="btn_company">Company</button></li>
+              <li><button id="btn_socials">Socials</button></li>
+            </ul>
+          </div>
+          <!-- navigator area end -->
+          <!-- info contente area start -->
+          <div id="info_area_contents">
+            <!-- conatct info box start-->
+            <div class="info_box active" id="contact_info_box">
+              <div class="contact_details">
+                <ul>
+                  <li>
+                    <span class="icon">
+                      <img src="img/icons/phone-call.png" alt="call" />
+                    </span>
+                    <div class="link">
+                      <label>Mobile Phone</label>
+                      <a title="+41795870900" href="tel:+41795870900"
+                        >+41795870900</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <span class="icon">
+                      <img src="img/icons/mail.png" alt="Email" />
+                    </span>
+                    <div class="link">
+                      <label>Email</label>
+                      <a
+                        title="domenico.lapietra@wiwaag.ch"
+                        href="mailto:domenico.lapietra@wiwaag.ch"
+                        >domenico.lapietra@wiwaag.ch</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <span class="icon">
+                      <img src="img/icons/world.png" alt="website" />
+                    </span>
+                    <div class="link">
+                      <label>Personal website</label>
+                      <a title="www.wiwaag.ch" href="https://www.wiwaag.ch/"
+                        >www.wiwaag.ch</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <span class="icon">
+                      <img src="img/icons/location.png" alt="location" />
+                    </span>
+                    <div class="link">
+                      <label>Location</label>
+                      <a
+                        title="Maurerstrasse 8, 8500 Frauenfeld, Schweiz"
+                        href="https://www.google.com/maps/place/Maurerstrasse%208,+8500%20Frauenfeld,+Schweiz"
+                        >Maurerstrasse 8, 8500 Frauenfeld, Schweiz</a
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- conatct info box end -->
+            <!-- company info box start-->
+            <div class="info_box" id="company_info_box">
+              <div class="contact_details">
+                <ul>
+                  <li>
+                    <span class="icon">
+                      <img src="img/icons/office.png" alt="office" />
+                    </span>
+                    <div class="link">
+                      <label>Company</label>
+                      <p>WIWA AG</p>
+                    </div>
+                  </li>
+                  <li>
+                    <span class="icon">
+                      <img src="img/icons/card.png" alt="Profession" />
+                    </span>
+                    <div class="link">
+                      <label>Profession</label>
+                      <p>Projektleiter</p>
+                    </div>
+                  </li>
+                  <li>
+                    <span class="icon">
+                      <img
+                        style="width: 70px"
+                        src="img/icons/document.png"
+                        s
+                        alt="Summary"
+                      />
+                    </span>
+                    <div class="link">
+                      <label>Summary</label>
+                      <p>
+                        Die WIWA AG bietet Ihnen umfassende Baudienstleistungen
+                        aus einer Hand. Für Immobilienverwaltungen, Architekten,
+                        Bauunternehmen, Geschäfts- & Privatkunden in der
+                        Schweiz.
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- company info box end -->
+            <!-- socials info box start-->
+            <div class="info_box" id="socials_info_box">
+              <div class="social_box">
+                <ul>
+                  <li>
+                    <a href="#"><img src="img/icons/linkedin.png" alt="" /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- socials info box end -->
+          </div>
+          <!-- info contente area end -->
+        </section>
+        <!-- middle section area end -->
+      </div>
+      <!--  card box end -->
+    </div>
+
+    <!-- javascript code here -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
