@@ -41,3 +41,8 @@ socials_btn.addEventListener("click", function(){
     socials_info_box.classList.add('active');
 })
 
+// script.js
+window.onload = function() {
+    // Hide the preloader when the page is fully loaded
+    document.querySelector('.preloader-container').style.display = 'none';
+};
