@@ -88,15 +88,20 @@ img {
   background-color: #fff;
 }
 #dm_vcard_box #dm_header_area {
-  background-color: #4e565c;
+  background: linear-gradient(45deg, rgba(78, 86, 92, 0.8), rgba(78, 86, 92, 0.8)), url(../img/bg-1.jpg);
   padding: 70px 0px;
   padding-bottom: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 #dm_vcard_box #dm_header_area .header_logo {
   max-width: 120px;
-  background-color: #fff;
   border-radius: 12px;
   margin: auto;
+}
+#dm_vcard_box #dm_header_area .header_logo img {
+  border-radius: 12px;
 }
 #dm_vcard_box #dm_header_area .header_info {
   text-align: center;
@@ -118,20 +123,19 @@ img {
   display: inline-block;
   margin-top: 20px;
   font-size: 12px;
+  margin-bottom: 50px;
 }
 #dm_vcard_box #dm_header_area .header_info .contact_btn:hover {
   background-color: #fff;
   color: #8a181a;
 }
-#dm_vcard_box #main_info_area {
-  background-color: #fff;
-}
 #dm_vcard_box #main_info_area .navigator_area {
-  background-color: #4e565c;
+  background-color: transparent;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: -50px;
 }
 #dm_vcard_box #main_info_area .navigator_area ul {
   display: flex;
@@ -154,7 +158,7 @@ img {
   border-radius: 6px 6px 0px 0px;
   border: 1px solid transparent;
   transition: all 0.5s;
-  color: #afb0af;
+  color: #d8d8d8;
 }
 #dm_vcard_box #main_info_area .navigator_area ul li button:hover {
   background-color: #fff;

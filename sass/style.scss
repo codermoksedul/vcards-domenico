@@ -86,14 +86,21 @@ img {
   background-color: #fff;
   //   header area
   #dm_header_area {
-    background-color: $sColor;
+    background: linear-gradient(45deg, #4e565ccc, #4e565ccc),
+      url(../img/bg-1.jpg);
+
     padding: 70px 0px;
     padding-bottom: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     .header_logo {
       max-width: 120px;
-      background-color: #fff;
       border-radius: 12px;
       margin: auto;
+      img {
+        border-radius: 12px;
+      }
     }
     .header_info {
       text-align: center;
@@ -114,6 +121,7 @@ img {
         display: inline-block;
         margin-top: 20px;
         font-size: 12px;
+        margin-bottom: 50px;
         &:hover {
           background-color: #fff;
           color: $pColor;
@@ -123,13 +131,13 @@ img {
   }
   //   main info area start
   #main_info_area {
-    background-color: #fff;
     .navigator_area {
-      background-color: $sColor;
+      background-color: transparent;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      margin-top: -50px;
       ul {
         display: flex;
         flex-direction: row;
@@ -149,7 +157,7 @@ img {
             border-radius: 6px 6px 0px 0px;
             border: 1px solid transparent;
             transition: all 0.5s;
-            color: #afb0af;
+            color: #d8d8d8;
             &:hover {
               background-color: #fff;
               color: #000;
